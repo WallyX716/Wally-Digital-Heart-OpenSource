@@ -40,6 +40,13 @@ python examples/pygame_integration.py --headless --persist
 ```
 
 ---
+---
+
+## Documentation
+
+- **[Quick Start Guide](QUICKSTART.md)** — Detailed walkthrough from zero → living organism
+- **[FAQ](FAQ.md)** — Answers for new users & first-time contributors
+- **[5 Easy Ideas to Extend](IDEAS.md)** — Fun beginner-friendly projects that grow with Wally
 
 ## Install / import into your project
 
