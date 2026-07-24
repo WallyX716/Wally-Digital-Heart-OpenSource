@@ -1,0 +1,51 @@
+# Bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.Python
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Test / coverage / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime organism checkpoints (local growth — do not commit personal sessions)
+symbio_state.json
+*_state.json
+examples/*_state.json
+*.tmp
+
+# Secrets (never commit)
+.env
+.env.*
+*.pem
+*.key

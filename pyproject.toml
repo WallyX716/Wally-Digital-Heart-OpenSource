@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "symbio-engine"
+version = "0.1.1"
+description = "Lightweight living digital organism engine for Python programs and Pygame games (Wally Digital Heart)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Jonathan" }]
+keywords = [
+  "symbiote",
+  "evolution",
+  "self-healing",
+  "pygame",
+  "emergent",
+  "ai-organism",
+  "wally",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "License :: OSI Approved :: MIT License",
+  "Topic :: Games/Entertainment",
+  "Topic :: Software Development :: Libraries",
+  "Operating System :: OS Independent",
+]
+dependencies = []
+
+[project.optional-dependencies]
+game = ["pygame>=2.5.0"]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+symbio-console = "examples.console_life:main"
+
+[tool.setuptools.packages.find]
+include = ["symbio_engine*", "examples*"]

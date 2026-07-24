@@ -1,0 +1,3 @@
+# SymbioEngine core is stdlib-only (Python 3.9+).
+# Optional extras for richer demos:
+pygame>=2.5.0; python_version>="3.9"
